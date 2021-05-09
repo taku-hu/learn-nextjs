@@ -13,7 +13,7 @@ module.exports = {
   },
   ignorePatterns: ['node_modules/*', '.next/*', '.out/*'],
   extends: [
-    'eslint:recommended',
+    'standard',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
@@ -38,13 +38,6 @@ module.exports = {
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
     'jsx-a11y/anchor-is-valid': 0,
-    '@typescript-eslint/explicit-module-boundary-types': 0,
-    'no-console': 'warn',
-    'quotes': ['error', 'single'],
-    'object-curly-spacing': ['error', 'always'],
-    'space-before-function-paren': ['error', 'always'],
-    'comma-dangle': ['error', 'never'],
-    'semi': ['error', 'never'],
-    'eol-last': ['error', 'always']
+    '@typescript-eslint/explicit-module-boundary-types': 0
   }
 }
